@@ -1,0 +1,12 @@
+---
+
+  - hosts: server1
+    name: Installing Apache and Java
+    roles:
+      - apache
+      - java
+
+  - hosts: server2
+    name: Nginx install
+    roles:
+      - nginx
